@@ -1,0 +1,33 @@
+{
+    "name": "grimreapper/laravel-sitemap",
+    "description": "Sitemap generator for laravel",
+    "type": "library",
+    "require": {
+        "php": "^7.2.5",
+        "ext-dom": "*",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "imran ali",
+            "email": "imran.ali125@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GrimReapper\\LaravelSitemap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GrimReapper\\LaravelSitemap\\LaravelSitemapServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
